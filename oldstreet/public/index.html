@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>青龙老街建筑观察 · 图志</title>
+<link rel="stylesheet" href="/styles.css"/>
+</head>
+<body>
+<header class="masthead">
+  <div class="brand">
+    <span class="seal">青龍</span>
+    <div>
+      <h1>老街建筑全栈观察图志</h1>
+      <p class="sub">稳定实体 · 时段门牌 · 证据差异 · 候选立面 · 入口开放状态 · 双时态快照</p>
+    </div>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="atlas">图志（地图+列表）</button>
+    <button class="tab" data-tab="compare">门牌索引对照</button>
+    <button class="tab" data-tab="admin">后台维护</button>
+    <button class="tab" data-tab="about">设计说明</button>
+  </nav>
+</header>
+
+<!-- ================= 图志 ================= -->
+<section id="tab-atlas" class="tabpanel active">
+  <div class="timebar">
+    <label>系统时刻 asOf
+      <input id="asOf" type="datetime-local" step="60"/>
+    </label>
+    <label>业务时刻 validAt
+      <input id="validAt" type="datetime-local" step="60"/>
+    </label>
+    <button id="btnNow" class="ghost">回到当前</button>
+    <label class="chk"><input id="includeHistory" type="checkbox"/> 显示历史/退役实体</label>
+    <span id="snapInfo" class="snapinfo"></span>
+  </div>
+
+  <div class="filters" role="group" aria-label="筛选">
+    <label>年代
+      <select id="fEra">
+        <option value="">全部</option>
+        <option value="qing">清代(-1911)</option>
+        <option value="min">民国(1912-1948)</option>
+        <option value="prc">建国后(1949-1999)</option>
+        <option value="modern">当代(2000-)</option>
+      </select>
+    </label>
+    <label>风格
+      <select id="fStyle">
+        <option value="">全部</option>
+        <option value="chuandou">穿斗木构</option>
+        <option value="brick-wood">砖木混合</option>
+        <option value="stone">石构</option>
+        <option value="colonial">骑楼/殖民风</option>
+        <option value="modern">现代改建</option>
+        <option value="reinforced">砖混加固</option>
+      </select>
+    </label>
+    <label>保存
+      <select id="fPres">
+        <option value="">全部</option>
+        <option value="intact">完好</option>
+        <option value="good">较好</option>
+        <option value="fair">一般</option>
+        <option value="poor">较差</option>
+        <option value="ruin">遗址</option>
+      </select>
+    </label>
+    <label class="grow">检索（名称 / 门牌 / 稳定号）
+      <input id="fQ" type="search" placeholder="如 128、裕通、QLS-001、42"/>
+    </label>
+    <button id="btnReset" class="ghost">清空</button>
+  </div>
+
+  <div class="workspace">
+    <div class="listpane">
+      <div class="listhint" tabindex="0" id="listHint">
+        <strong>键盘</strong>：<kbd>↑</kbd><kbd>↓</kbd> 选择 · <kbd>Enter</kbd>/<kbd>→</kbd> 打开 · 列表与地图同筛选
+      </div>
+      <ul id="buildingList" class="blist" role="listbox" aria-label="建筑列表" tabindex="0"></ul>
+      <div class="pager">
+        <button id="prevPage" class="ghost">‹ 上一页</button>
+        <span id="pageInfo"></span>
+        <button id="nextPage" class="ghost">下一页 ›</button>
+      </div>
+    </div>
+
+    <div class="mappane">
+      <canvas id="map" width="720" height="560" aria-label="老街地图"></canvas>
+      <div class="legend">
+        <span><i class="d qing"></i>清代</span>
+        <span><i class="d min"></i>民国</span>
+        <span><i class="d prc"></i>建国后</span>
+        <span><i class="d modern"></i>当代</span>
+        <span><i class="d unknown"></i>未定</span>
+        <span class="ml"><i class="ring"></i>边界</span>
+        <span class="ml">◷ 已纠偏坐标</span>
+        <button id="btnTile" class="ghost tiny">瓦片分块自测</button>
+      </div>
+      <div id="tileBox" class="tilebox hidden"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 门牌索引对照 ================= -->
+<section id="tab-compare" class="tabpanel">
+  <div class="panel narrow">
+    <h2>按“现门牌索引” vs “稳定实体 + 时段别名”</h2>
+    <p class="muted">同一条检索，在同一快照下比较两种索引。已废止门牌在现门牌索引下落空，但在稳定实体+时段别名下能回溯到同一座建筑。</p>
+    <div class="filters">
+      <label class="grow">门牌
+        <input id="lookupNumber" value="青龙街42号" placeholder="输入门牌，如 青龙街42号"/>
+      </label>
+      <label>历史时刻(可选)
+        <input id="lookupAt" type="datetime-local" step="60"/>
+      </label>
+      <button id="btnLookup" class="solid">对照检索</button>
+    </div>
+    <div class="compare">
+      <div class="card" id="cmpCurrent"></div>
+      <div class="card" id="cmpTimeline"></div>
+    </div>
+    <h3>快照一致性 · 地理分块</h3>
+    <p class="muted">列表分页与地图/瓦片共享同一快照与同一筛选谓词。拖动时间或改筛选后，分块结果随之一致变化。</p>
+    <div id="cmpTile" class="tilelog"></div>
+  </div>
+</section>
+
+<!-- ================= 后台维护 ================= -->
+<section id="tab-admin" class="tabpanel">
+  <div class="panel admin">
+    <h2>后台维护（全部操作即追加事件，可复现）</h2>
+    <p class="muted">选择操作模板 → 编辑 JSON → 提交。图片可先上传得到文件名，再写入 photo.file。所有写操作只追加、不改写历史。</p>
+    <div class="adminwrap">
+      <div class="templates">
+        <h3>操作模板</h3>
+        <div id="tplList" class="tpllist"></div>
+        <h3>图片上传（保留拍摄朝向）</h3>
+        <input type="file" id="upFile" accept="image/*"/>
+        <div class="uprow"><label>拍摄方位角(°) <input id="upAz" type="number" min="0" max="360" value="90"/></label></div>
+        <button id="btnUpload" class="solid">上传</button>
+        <pre id="upResult" class="upresult"></pre>
+      </div>
+      <div class="editor">
+        <label>命令：<select id="cmdSelect"></select></label>
+        <textarea id="cmdJson" spellcheck="false"></textarea>
+        <div class="edactions">
+          <button id="btnRunCmd" class="solid">提交命令</button>
+          <span id="cmdResult" class="cmdresult"></span>
+        </div>
+        <h3>最近事件（append-only）</h3>
+        <div id="eventLog" class="eventlog"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 设计说明 ================= -->
+<section id="tab-about" class="tabpanel">
+  <div class="panel narrow doc" id="aboutDoc"></div>
+</section>
+
+<!-- 详情抽屉 -->
+<aside id="drawer" class="drawer hidden" aria-label="建筑详情"></aside>
+<div id="scrim" class="scrim hidden"></div>
+
+<script type="module" src="/app.js"></script>
+</body>
+</html>
