@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300">
+  <rect width="480" height="300" fill="#e3e7ea"/>
+  <rect y="230" width="480" height="70" fill="#9a968c"/>
+  <polygon points="120,230 240,96 360,230" fill="#7d3a2e"/>
+  <polygon points="160,230 240,132 320,230" fill="#9c5240"/>
+  <rect x="220" y="176" width="40" height="54" fill="#3e2c22"/>
+  <rect x="170" y="196" width="34" height="34" fill="#cbb78f"/><rect x="276" y="196" width="34" height="34" fill="#cbb78f"/>
+  <text x="240" y="60" text-anchor="middle" font-family="serif" font-size="18" fill="#3d322b">林氏宗祠正殿</text>
+  <text x="240" y="282" text-anchor="middle" font-family="serif" font-size="13" fill="#5d554a">2019 现状（朝向 200°，示意）</text>
+</svg>

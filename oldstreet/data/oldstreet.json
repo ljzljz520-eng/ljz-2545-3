@@ -1,0 +1,1487 @@
+{
+  "meta": {
+    "siteName": "槐安老街历史文化街区",
+    "siteEntranceIds": [
+      "EN-S1",
+      "EN-S2"
+    ],
+    "center": [
+      118.0865,
+      24.562
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "1948 年槐安镇地籍清册",
+      "kind": "cadastre",
+      "authority": 40,
+      "recordedAt": "1948-03-01T00:00:00.000Z"
+    },
+    {
+      "id": "S2",
+      "title": "1982 年地名普查表",
+      "kind": "gazetteer",
+      "authority": 35,
+      "recordedAt": "1982-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "S3",
+      "title": "第三次全国文物普查登记表（2019）",
+      "kind": "survey",
+      "authority": 70,
+      "recordedAt": "2019-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "S4",
+      "title": "2024 年街区实测地形图（含坐标纠偏）",
+      "kind": "survey",
+      "authority": 95,
+      "recordedAt": "2024-05-18T00:00:00.000Z"
+    },
+    {
+      "id": "S5",
+      "title": "徐氏家族口述史（2017 访谈）",
+      "kind": "oral",
+      "authority": 20,
+      "recordedAt": "2017-09-10T00:00:00.000Z"
+    },
+    {
+      "id": "S6",
+      "title": "闽南影像馆藏明信片与老照片",
+      "kind": "photo-archive",
+      "authority": 60,
+      "recordedAt": "2016-04-02T00:00:00.000Z"
+    },
+    {
+      "id": "S7",
+      "title": "建筑年代铭牌（现场拓录）",
+      "kind": "plaque",
+      "authority": 55,
+      "recordedAt": "2015-02-11T00:00:00.000Z"
+    },
+    {
+      "id": "S8",
+      "title": "民国《槐安寺塔志》点注本（2009）",
+      "kind": "gazetteer",
+      "authority": 45,
+      "recordedAt": "2009-08-01T00:00:00.000Z"
+    },
+    {
+      "id": "S9",
+      "title": "街区修缮施工档案",
+      "kind": "construction",
+      "authority": 80,
+      "recordedAt": "2021-11-30T00:00:00.000Z"
+    }
+  ],
+  "entities": [
+    {
+      "id": "E-001",
+      "name": "荣盛酱园旧址",
+      "note": "清晚期酱园铺面，1953 年门面改骑楼，2021 年修缮。",
+      "createdAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "E-002",
+      "name": "徐家大院（拆分前合院）",
+      "note": "1997 年分户拆分为东、西护厝两个独立产权与使用单元；本实体仅保留 1997 年前身份。",
+      "createdAt": "1997-04-10T00:00:00.000Z",
+      "validFrom": "1920-01-01",
+      "validTo": "1997-04-10",
+      "withdrawn": false
+    },
+    {
+      "id": "E-003",
+      "name": "徐家大院·东护厝",
+      "note": "1997 年自徐家大院分出，沿主门牌 7 号；徐氏后人居住。",
+      "createdAt": "1997-04-10T00:00:00.000Z",
+      "validFrom": "1997-04-10",
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "E-004",
+      "name": "徐家大院·西护厝（长兴茶栈）",
+      "note": "1997 年自徐家大院分出，编 7-1 号（2006 年改 9 号）。",
+      "createdAt": "1997-04-10T00:00:00.000Z",
+      "validFrom": "1997-04-10",
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "E-005",
+      "name": "望江茶园旧址",
+      "note": "骑楼铺面；年代、风格与坐标均存在多来源矛盾，见证据面板。",
+      "createdAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "E-006",
+      "name": "林氏宗祠",
+      "note": "传统宗祠殿堂，中开间抬梁构，2015 年重修。",
+      "createdAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "E-007",
+      "name": "德记布行旧址",
+      "note": "民国骑楼布行，2018 年修缮后作为书屋使用。",
+      "createdAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "E-008",
+      "name": "义和糖仓遗址",
+      "note": "夯土糖仓，墙体残损，仅可外观或预约进入。",
+      "createdAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "E-009",
+      "name": "槐安旅社",
+      "note": "1962 年改建的集体旅社，2003 年改造为民宿。",
+      "createdAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    }
+  ],
+  "aliases": [
+    {
+      "id": "A-101",
+      "entityId": "E-001",
+      "number": "槐安街18号",
+      "validFrom": "1912-01-01",
+      "validTo": "1949-01-01",
+      "sourceId": "S1",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": "1948 地籍清册登记"
+    },
+    {
+      "id": "A-102",
+      "entityId": "E-001",
+      "number": "中山街112号",
+      "validFrom": "1949-01-01",
+      "validTo": "1998-01-01",
+      "sourceId": "S2",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": "道路一度更名中山街"
+    },
+    {
+      "id": "A-103",
+      "entityId": "E-001",
+      "number": "槐安街12号",
+      "validFrom": "1998-01-01",
+      "validTo": null,
+      "sourceId": "S4",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": ""
+    },
+    {
+      "id": "A-201",
+      "entityId": "E-002",
+      "number": "槐安街7号",
+      "validFrom": "1920-01-01",
+      "validTo": "1997-04-10",
+      "sourceId": "S2",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": "合院整院时期"
+    },
+    {
+      "id": "A-301",
+      "entityId": "E-003",
+      "number": "槐安街7号",
+      "validFrom": "1997-04-10",
+      "validTo": null,
+      "sourceId": "S4",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": "拆分后东护厝沿用主门牌"
+    },
+    {
+      "id": "A-401",
+      "entityId": "E-004",
+      "number": "槐安街7-1号",
+      "validFrom": "1997-04-10",
+      "validTo": "2006-03-01",
+      "sourceId": "S2",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": ""
+    },
+    {
+      "id": "A-402",
+      "entityId": "E-004",
+      "number": "槐安街9号",
+      "validFrom": "2006-03-01",
+      "validTo": null,
+      "sourceId": "S4",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": ""
+    },
+    {
+      "id": "A-501",
+      "entityId": "E-005",
+      "number": "槐安街22号",
+      "validFrom": "1933-01-01",
+      "validTo": "2006-03-01",
+      "sourceId": "S1",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": ""
+    },
+    {
+      "id": "A-502",
+      "entityId": "E-005",
+      "number": "槐安街20号",
+      "validFrom": "2006-03-01",
+      "validTo": null,
+      "sourceId": "S4",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": ""
+    },
+    {
+      "id": "A-601",
+      "entityId": "E-006",
+      "number": "槐安街26号",
+      "validFrom": "1860-01-01",
+      "validTo": null,
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": ""
+    },
+    {
+      "id": "A-701",
+      "entityId": "E-007",
+      "number": "槐安街3号",
+      "validFrom": "1928-01-01",
+      "validTo": null,
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": ""
+    },
+    {
+      "id": "A-702",
+      "entityId": "E-007",
+      "number": "槐安街5号",
+      "validFrom": "2018-01-01",
+      "validTo": null,
+      "sourceId": "S2",
+      "recordedAt": "2019-12-02T00:00:00.000Z",
+      "withdrawn": true,
+      "withdrawnAt": "2020-05-06T00:00:00.000Z",
+      "note": "转录错误，5 号实为对面建筑"
+    },
+    {
+      "id": "A-801",
+      "entityId": "E-008",
+      "number": "槐安街31号",
+      "validFrom": "1925-01-01",
+      "validTo": null,
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": ""
+    },
+    {
+      "id": "A-901",
+      "entityId": "E-009",
+      "number": "槐安街35号",
+      "validFrom": "1962-01-01",
+      "validTo": null,
+      "sourceId": "S2",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "withdrawn": false,
+      "withdrawnAt": null,
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "C-101",
+      "entityId": "E-001",
+      "attr": "yearBuilt",
+      "value": 1892,
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-102",
+      "entityId": "E-001",
+      "attr": "yearBuilt",
+      "value": 1887,
+      "sourceId": "S5",
+      "recordedAt": "2017-09-10T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-103",
+      "entityId": "E-001",
+      "attr": "style",
+      "value": "minnan-redbrick",
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-104",
+      "entityId": "E-001",
+      "attr": "status",
+      "value": "weathered",
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": "2021-11-30",
+      "withdrawn": false
+    },
+    {
+      "id": "C-105",
+      "entityId": "E-001",
+      "attr": "status",
+      "value": "restored",
+      "sourceId": "S9",
+      "recordedAt": "2021-11-30T00:00:00.000Z",
+      "validFrom": "2021-11-30",
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-501",
+      "entityId": "E-005",
+      "attr": "yearBuilt",
+      "value": 1908,
+      "sourceId": "S7",
+      "recordedAt": "2015-02-11T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-502",
+      "entityId": "E-005",
+      "attr": "yearBuilt",
+      "value": 1933,
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-503",
+      "entityId": "E-005",
+      "attr": "yearBuilt",
+      "value": 1899,
+      "sourceId": "S8",
+      "recordedAt": "2009-08-01T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-504",
+      "entityId": "E-005",
+      "attr": "style",
+      "value": "colonial-arcade",
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-505",
+      "entityId": "E-005",
+      "attr": "style",
+      "value": "qianqi-shikumen",
+      "sourceId": "S8",
+      "recordedAt": "2009-08-01T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-506",
+      "entityId": "E-005",
+      "attr": "status",
+      "value": "fair",
+      "sourceId": "S4",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-201",
+      "entityId": "E-002",
+      "attr": "yearBuilt",
+      "value": 1920,
+      "sourceId": "S2",
+      "recordedAt": "1982-07-01T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-202",
+      "entityId": "E-002",
+      "attr": "style",
+      "value": "courtyard-residence",
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-203",
+      "entityId": "E-002",
+      "attr": "status",
+      "value": "fair",
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": "1997-04-10",
+      "withdrawn": false
+    },
+    {
+      "id": "C-301",
+      "entityId": "E-003",
+      "attr": "yearBuilt",
+      "value": 1920,
+      "sourceId": "S5",
+      "recordedAt": "2017-09-10T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-302",
+      "entityId": "E-003",
+      "attr": "style",
+      "value": "courtyard-residence",
+      "sourceId": "S4",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-303",
+      "entityId": "E-003",
+      "attr": "status",
+      "value": "fair",
+      "sourceId": "S4",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-401",
+      "entityId": "E-004",
+      "attr": "style",
+      "value": "courtyard-residence",
+      "sourceId": "S4",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-402",
+      "entityId": "E-004",
+      "attr": "status",
+      "value": "adapted",
+      "sourceId": "S4",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-601",
+      "entityId": "E-006",
+      "attr": "yearBuilt",
+      "value": 1768,
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-602",
+      "entityId": "E-006",
+      "attr": "yearBuilt",
+      "value": 1772,
+      "sourceId": "S7",
+      "recordedAt": "2015-02-11T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-603",
+      "entityId": "E-006",
+      "attr": "style",
+      "value": "traditional-hall",
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-604",
+      "entityId": "E-006",
+      "attr": "status",
+      "value": "restored",
+      "sourceId": "S9",
+      "recordedAt": "2015-09-01T00:00:00.000Z",
+      "validFrom": "2015-09-01",
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-701",
+      "entityId": "E-007",
+      "attr": "yearBuilt",
+      "value": 1928,
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-702",
+      "entityId": "E-007",
+      "attr": "style",
+      "value": "qianqi-shikumen",
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-703",
+      "entityId": "E-007",
+      "attr": "status",
+      "value": "restored",
+      "sourceId": "S9",
+      "recordedAt": "2018-10-20T00:00:00.000Z",
+      "validFrom": "2018-10-20",
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-801",
+      "entityId": "E-008",
+      "attr": "yearBuilt",
+      "value": 1925,
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-802",
+      "entityId": "E-008",
+      "attr": "style",
+      "value": "minnan-redbrick",
+      "sourceId": "S3",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-803",
+      "entityId": "E-008",
+      "attr": "status",
+      "value": "ruin",
+      "sourceId": "S4",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-901",
+      "entityId": "E-009",
+      "attr": "yearBuilt",
+      "value": 1962,
+      "sourceId": "S2",
+      "recordedAt": "1982-07-01T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-902",
+      "entityId": "E-009",
+      "attr": "style",
+      "value": "qianqi-shikumen",
+      "sourceId": "S4",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "validFrom": null,
+      "validTo": null,
+      "withdrawn": false
+    },
+    {
+      "id": "C-903",
+      "entityId": "E-009",
+      "attr": "status",
+      "value": "adapted",
+      "sourceId": "S4",
+      "recordedAt": "2003-06-01T00:00:00.000Z",
+      "validFrom": "2003-06-01",
+      "validTo": null,
+      "withdrawn": false
+    }
+  ],
+  "events": [
+    {
+      "id": "V-001",
+      "entityId": "E-001",
+      "kind": "adaptation",
+      "date": "1953-08-12",
+      "title": "门面改砖砌骑楼",
+      "detail": "酱园停办后沿街面加建骑楼柱廊，女儿墙为此时所加。",
+      "sourceId": "S5",
+      "recordedAt": "2017-09-10T00:00:00.000Z",
+      "withdrawn": false
+    },
+    {
+      "id": "V-002",
+      "entityId": "E-001",
+      "kind": "repair",
+      "date": "2021-06-20",
+      "title": "屋面与木构修缮",
+      "detail": "更换朽坏桷木 37 根，重做滴水瓦，保留红砖墙身。",
+      "sourceId": "S9",
+      "recordedAt": "2021-11-30T00:00:00.000Z",
+      "withdrawn": false
+    },
+    {
+      "id": "V-003",
+      "entityId": "E-002",
+      "kind": "split",
+      "date": "1997-04-10",
+      "title": "合院分户拆分",
+      "detail": "产权析产：东护厝（E-003）沿用 7 号，西护厝（E-004）编 7-1 号。原合院身份止于本日。",
+      "sourceId": "S2",
+      "recordedAt": "1997-04-10T00:00:00.000Z",
+      "withdrawn": false
+    },
+    {
+      "id": "V-004",
+      "entityId": "E-006",
+      "kind": "repair",
+      "date": "2015-08-01",
+      "title": "宗祠重修",
+      "detail": "抬梁构架落架大修，神龛原样保留。",
+      "sourceId": "S9",
+      "recordedAt": "2015-09-01T00:00:00.000Z",
+      "withdrawn": false
+    },
+    {
+      "id": "V-005",
+      "entityId": "E-003",
+      "kind": "repair",
+      "date": "2026-09-28",
+      "title": "护厝木构件检修（院门临时关闭）",
+      "detail": "检修期间东护厝院门关闭，预计 10 月 12 日恢复。",
+      "sourceId": "S9",
+      "recordedAt": "2026-09-27T09:00:00.000Z",
+      "withdrawn": false
+    }
+  ],
+  "footprints": [
+    {
+      "id": "FP-1",
+      "entityId": "E-001",
+      "ring": [
+        [
+          118.08394000000001,
+          24.56268
+        ],
+        [
+          118.08426,
+          24.56268
+        ],
+        [
+          118.08426,
+          24.56292
+        ],
+        [
+          118.08394000000001,
+          24.56292
+        ],
+        [
+          118.08394000000001,
+          24.56268
+        ]
+      ],
+      "point": [
+        118.0841,
+        24.5628
+      ],
+      "sourceId": "S4",
+      "kind": "surveyed",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "supersedes": null,
+      "note": "",
+      "withdrawn": false,
+      "withdrawnAt": null
+    },
+    {
+      "id": "FP-2",
+      "entityId": "E-002",
+      "ring": [
+        [
+          118.08486,
+          24.56228
+        ],
+        [
+          118.08554,
+          24.56228
+        ],
+        [
+          118.08554,
+          24.56272
+        ],
+        [
+          118.08486,
+          24.56272
+        ],
+        [
+          118.08486,
+          24.56228
+        ]
+      ],
+      "point": [
+        118.0852,
+        24.5625
+      ],
+      "sourceId": "S1",
+      "kind": "reported",
+      "recordedAt": "1948-03-01T00:00:00.000Z",
+      "supersedes": null,
+      "note": "整院范围（含东西护厝）",
+      "withdrawn": false,
+      "withdrawnAt": null
+    },
+    {
+      "id": "FP-3",
+      "entityId": "E-003",
+      "ring": [
+        [
+          118.0853,
+          24.562440000000002
+        ],
+        [
+          118.08561999999999,
+          24.562440000000002
+        ],
+        [
+          118.08561999999999,
+          24.56268
+        ],
+        [
+          118.0853,
+          24.56268
+        ],
+        [
+          118.0853,
+          24.562440000000002
+        ]
+      ],
+      "point": [
+        118.08546,
+        24.56256
+      ],
+      "sourceId": "S4",
+      "kind": "surveyed",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "supersedes": null,
+      "note": "",
+      "withdrawn": false,
+      "withdrawnAt": null
+    },
+    {
+      "id": "FP-4",
+      "entityId": "E-004",
+      "ring": [
+        [
+          118.08482000000001,
+          24.562240000000003
+        ],
+        [
+          118.08514,
+          24.562240000000003
+        ],
+        [
+          118.08514,
+          24.56248
+        ],
+        [
+          118.08482000000001,
+          24.56248
+        ],
+        [
+          118.08482000000001,
+          24.562240000000003
+        ]
+      ],
+      "point": [
+        118.08498,
+        24.56236
+      ],
+      "sourceId": "S4",
+      "kind": "surveyed",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "supersedes": null,
+      "note": "",
+      "withdrawn": false,
+      "withdrawnAt": null
+    },
+    {
+      "id": "FP-5-OLD",
+      "entityId": "E-005",
+      "ring": [
+        [
+          118.08702000000001,
+          24.56146
+        ],
+        [
+          118.08734,
+          24.56146
+        ],
+        [
+          118.08734,
+          24.5617
+        ],
+        [
+          118.08702000000001,
+          24.5617
+        ],
+        [
+          118.08702000000001,
+          24.56146
+        ]
+      ],
+      "point": [
+        118.08718,
+        24.56158
+      ],
+      "sourceId": "S1",
+      "kind": "reported",
+      "recordedAt": "1948-03-01T00:00:00.000Z",
+      "supersedes": null,
+      "note": "清册点位相对实测向东南偏移约 72 米",
+      "withdrawn": true,
+      "withdrawnAt": "2024-05-18T00:00:00.000Z"
+    },
+    {
+      "id": "FP-5",
+      "entityId": "E-005",
+      "ring": [
+        [
+          118.08644000000001,
+          24.561980000000002
+        ],
+        [
+          118.08676,
+          24.561980000000002
+        ],
+        [
+          118.08676,
+          24.56222
+        ],
+        [
+          118.08644000000001,
+          24.56222
+        ],
+        [
+          118.08644000000001,
+          24.561980000000002
+        ]
+      ],
+      "point": [
+        118.0866,
+        24.5621
+      ],
+      "sourceId": "S4",
+      "kind": "surveyed-corrected",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "supersedes": "FP-5-OLD",
+      "note": "依据骑楼柱网与界墙实测纠偏",
+      "withdrawn": false,
+      "withdrawnAt": null
+    },
+    {
+      "id": "FP-6",
+      "entityId": "E-006",
+      "ring": [
+        [
+          118.08774000000001,
+          24.56158
+        ],
+        [
+          118.08806,
+          24.56158
+        ],
+        [
+          118.08806,
+          24.561819999999997
+        ],
+        [
+          118.08774000000001,
+          24.561819999999997
+        ],
+        [
+          118.08774000000001,
+          24.56158
+        ]
+      ],
+      "point": [
+        118.0879,
+        24.5617
+      ],
+      "sourceId": "S4",
+      "kind": "surveyed",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "supersedes": null,
+      "note": "",
+      "withdrawn": false,
+      "withdrawnAt": null
+    },
+    {
+      "id": "FP-7",
+      "entityId": "E-007",
+      "ring": [
+        [
+          118.08284,
+          24.56308
+        ],
+        [
+          118.08315999999999,
+          24.56308
+        ],
+        [
+          118.08315999999999,
+          24.563319999999997
+        ],
+        [
+          118.08284,
+          24.563319999999997
+        ],
+        [
+          118.08284,
+          24.56308
+        ]
+      ],
+      "point": [
+        118.083,
+        24.5632
+      ],
+      "sourceId": "S4",
+      "kind": "surveyed",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "supersedes": null,
+      "note": "",
+      "withdrawn": false,
+      "withdrawnAt": null
+    },
+    {
+      "id": "FP-8",
+      "entityId": "E-008",
+      "ring": [
+        [
+          118.08894000000001,
+          24.56108
+        ],
+        [
+          118.08926,
+          24.56108
+        ],
+        [
+          118.08926,
+          24.56132
+        ],
+        [
+          118.08894000000001,
+          24.56132
+        ],
+        [
+          118.08894000000001,
+          24.56108
+        ]
+      ],
+      "point": [
+        118.0891,
+        24.5612
+      ],
+      "sourceId": "S3",
+      "kind": "reported",
+      "recordedAt": "2019-11-20T00:00:00.000Z",
+      "supersedes": null,
+      "note": "残墙范围，未精测",
+      "withdrawn": false,
+      "withdrawnAt": null
+    },
+    {
+      "id": "FP-9",
+      "entityId": "E-009",
+      "ring": [
+        [
+          118.08994000000001,
+          24.56068
+        ],
+        [
+          118.09026,
+          24.56068
+        ],
+        [
+          118.09026,
+          24.56092
+        ],
+        [
+          118.08994000000001,
+          24.56092
+        ],
+        [
+          118.08994000000001,
+          24.56068
+        ]
+      ],
+      "point": [
+        118.0901,
+        24.5608
+      ],
+      "sourceId": "S4",
+      "kind": "surveyed",
+      "recordedAt": "2024-05-18T00:00:00.000Z",
+      "supersedes": null,
+      "note": "",
+      "withdrawn": false,
+      "withdrawnAt": null
+    }
+  ],
+  "entrances": [
+    {
+      "id": "EN-S1",
+      "entityId": null,
+      "label": "东街门（石牌坊）",
+      "point": [
+        118.0905,
+        24.5606
+      ]
+    },
+    {
+      "id": "EN-S2",
+      "entityId": null,
+      "label": "西街门（巷口）",
+      "point": [
+        118.0824,
+        24.5634
+      ]
+    },
+    {
+      "id": "EN-1",
+      "entityId": "E-001",
+      "label": "荣盛酱园正门",
+      "point": [
+        118.08406,
+        24.5627
+      ]
+    },
+    {
+      "id": "EN-3",
+      "entityId": "E-003",
+      "label": "东护厝院门",
+      "point": [
+        118.08552,
+        24.56248
+      ]
+    },
+    {
+      "id": "EN-5",
+      "entityId": "E-005",
+      "label": "望江茶园侧门",
+      "point": [
+        118.08652,
+        24.56206
+      ]
+    },
+    {
+      "id": "EN-8",
+      "entityId": "E-008",
+      "label": "糖仓遗址入口",
+      "point": [
+        118.08902,
+        24.56114
+      ]
+    }
+  ],
+  "entrancePeriods": [
+    {
+      "id": "EP-S1-A",
+      "entranceId": "EN-S1",
+      "state": "open",
+      "validFrom": null,
+      "validTo": "2026-09-28",
+      "weekdayHours": [
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00"
+      ],
+      "note": "",
+      "sourceId": "S4"
+    },
+    {
+      "id": "EP-S1-B",
+      "entranceId": "EN-S1",
+      "state": "closed",
+      "validFrom": "2026-09-29",
+      "validTo": "2026-10-04",
+      "weekdayHours": [
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00"
+      ],
+      "note": "石牌坊梁柱检修，东街门临时封闭",
+      "sourceId": "S9"
+    },
+    {
+      "id": "EP-S1-C",
+      "entranceId": "EN-S1",
+      "state": "open",
+      "validFrom": "2026-10-04",
+      "validTo": null,
+      "weekdayHours": [
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00"
+      ],
+      "note": "",
+      "sourceId": "S4"
+    },
+    {
+      "id": "EP-S2",
+      "entranceId": "EN-S2",
+      "state": "open",
+      "validFrom": null,
+      "validTo": null,
+      "weekdayHours": [
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00",
+        "08:00-20:00"
+      ],
+      "note": "",
+      "sourceId": "S4"
+    },
+    {
+      "id": "EP-1",
+      "entranceId": "EN-1",
+      "state": "open",
+      "validFrom": null,
+      "validTo": null,
+      "weekdayHours": [
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00"
+      ],
+      "note": "",
+      "sourceId": "S4"
+    },
+    {
+      "id": "EP-3",
+      "entranceId": "EN-3",
+      "state": "closed",
+      "validFrom": "2026-09-28",
+      "validTo": "2026-10-13",
+      "weekdayHours": [
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00",
+        "09:00-18:00"
+      ],
+      "note": "护厝木构件检修，院门关闭；不等于街区关闭",
+      "sourceId": "S9"
+    },
+    {
+      "id": "EP-5",
+      "entranceId": "EN-5",
+      "state": "open",
+      "validFrom": null,
+      "validTo": null,
+      "weekdayHours": [
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00",
+        "10:00-22:00"
+      ],
+      "note": "现作为茶室营业",
+      "sourceId": "S4"
+    },
+    {
+      "id": "EP-8",
+      "entranceId": "EN-8",
+      "state": "restricted",
+      "validFrom": null,
+      "validTo": null,
+      "weekdayHours": [
+        "09:00-16:00",
+        null,
+        "09:00-16:00",
+        "09:00-16:00",
+        "09:00-16:00",
+        "09:00-16:00",
+        "09:00-16:00"
+      ],
+      "note": "残墙加固中，需提前 1 日预约；周一闭园",
+      "sourceId": "S9"
+    }
+  ],
+  "photos": [
+    {
+      "id": "P-001",
+      "entityId": "E-001",
+      "takenAt": "1935-05-01",
+      "bearingDegrees": 182,
+      "estimatedLocation": [
+        118.08418,
+        24.56272
+      ],
+      "locationUncertaintyM": 12,
+      "file": "/images/p001.svg",
+      "caption": "荣盛酱园门脸（1935 年明信片）",
+      "sourceId": "S6",
+      "recordedAt": "2016-04-02T00:00:00.000Z",
+      "withdrawn": false,
+      "era": "historical"
+    },
+    {
+      "id": "P-002",
+      "entityId": "E-001",
+      "takenAt": "2023-11-09",
+      "bearingDegrees": 8,
+      "estimatedLocation": [
+        118.08408,
+        24.5627
+      ],
+      "locationUncertaintyM": 3,
+      "file": "/images/p002.svg",
+      "caption": "修缮后正立面现状",
+      "sourceId": "S4",
+      "recordedAt": "2023-11-10T00:00:00.000Z",
+      "withdrawn": false,
+      "era": "modern"
+    },
+    {
+      "id": "P-003",
+      "entityId": "E-005",
+      "takenAt": "1948-02-14",
+      "bearingDegrees": 95,
+      "estimatedLocation": [
+        118.08724,
+        24.56154
+      ],
+      "locationUncertaintyM": 28,
+      "file": "/images/p003.jpg",
+      "caption": "望江茶园骑楼（档案注记位置存疑）",
+      "sourceId": "S6",
+      "recordedAt": "2016-04-02T00:00:00.000Z",
+      "withdrawn": false,
+      "era": "historical",
+      "fileMissing": true
+    },
+    {
+      "id": "P-004",
+      "entityId": "E-006",
+      "takenAt": "2019-10-02",
+      "bearingDegrees": 200,
+      "estimatedLocation": [
+        118.08786,
+        24.56176
+      ],
+      "locationUncertaintyM": 4,
+      "file": "/images/p004.svg",
+      "caption": "林氏宗祠正殿",
+      "sourceId": "S3",
+      "recordedAt": "2019-10-05T00:00:00.000Z",
+      "withdrawn": false,
+      "era": "modern"
+    },
+    {
+      "id": "P-005",
+      "entityId": "E-009",
+      "takenAt": "1972-08-01",
+      "bearingDegrees": 0,
+      "estimatedLocation": [
+        118.09005,
+        24.56074
+      ],
+      "locationUncertaintyM": 10,
+      "file": "/images/p005.svg",
+      "caption": "槐安旅社开业十年留影",
+      "sourceId": "S2",
+      "recordedAt": "1982-07-01T00:00:00.000Z",
+      "withdrawn": false,
+      "era": "historical"
+    }
+  ],
+  "photoMatches": [
+    {
+      "id": "M-001",
+      "photoId": "P-001",
+      "entityId": "E-001",
+      "facade": "正立面（南向）",
+      "status": "pending",
+      "confidence": 0.62,
+      "note": "一层柱间距与现存一致；二层女儿墙为 1953 年后加，照片中尚无，符合 1935 年时间线。",
+      "decidedBy": null,
+      "recordedAt": "2024-06-01T00:00:00.000Z"
+    },
+    {
+      "id": "M-002",
+      "photoId": "P-001",
+      "entityId": "E-001",
+      "facade": "东厢山墙面",
+      "status": "pending",
+      "confidence": 0.34,
+      "note": "仅山墙阶形轮廓相似，开间数对不上。",
+      "decidedBy": null,
+      "recordedAt": "2024-06-01T00:00:00.000Z"
+    },
+    {
+      "id": "M-003",
+      "photoId": "P-002",
+      "entityId": "E-001",
+      "facade": "正立面（南向）",
+      "status": "confirmed",
+      "confidence": 0.97,
+      "note": "实测正射影像配准。",
+      "decidedBy": "2024 测绘组",
+      "recordedAt": "2024-06-03T00:00:00.000Z"
+    },
+    {
+      "id": "M-004",
+      "photoId": "P-003",
+      "entityId": "E-005",
+      "facade": "骑楼正立面",
+      "status": "pending",
+      "confidence": 0.55,
+      "note": "柱式相似；但档案标注位置（清册点）已被纠偏，拍摄点可能不在该立面轴线上。",
+      "decidedBy": null,
+      "recordedAt": "2024-06-04T00:00:00.000Z"
+    },
+    {
+      "id": "M-005",
+      "photoId": "P-003",
+      "entityId": "E-005",
+      "facade": "北翼山墙面",
+      "status": "pending",
+      "confidence": 0.42,
+      "note": "朝向 95° 更接近北翼，但骑楼元素无法解释。",
+      "decidedBy": null,
+      "recordedAt": "2024-06-04T00:00:00.000Z"
+    },
+    {
+      "id": "M-006",
+      "photoId": "P-004",
+      "entityId": "E-006",
+      "facade": "正殿立面",
+      "status": "confirmed",
+      "confidence": 0.95,
+      "note": "现场核对。",
+      "decidedBy": "2024 测绘组",
+      "recordedAt": "2019-10-06T00:00:00.000Z"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R-001",
+      "kind": "split",
+      "fromEntityId": "E-002",
+      "toEntityIds": [
+        "E-003",
+        "E-004"
+      ],
+      "date": "1997-04-10",
+      "note": "析产分户；东护厝沿用主门牌，西护厝另编号。子女实体不继承整院单一身份。",
+      "recordedAt": "1997-04-10T00:00:00.000Z"
+    }
+  ],
+  "audits": []
+}

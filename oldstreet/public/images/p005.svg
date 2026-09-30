@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300">
+  <rect width="480" height="300" fill="#e6e0d2"/>
+  <rect y="226" width="480" height="74" fill="#a99f88"/>
+  <rect x="80" y="100" width="320" height="130" fill="#e7e0cd"/>
+  <g fill="#b9a678"><rect x="100" y="120" width="34" height="46"/><rect x="150" y="120" width="34" height="46"/><rect x="200" y="120" width="34" height="46"/><rect x="250" y="120" width="34" height="46"/><rect x="300" y="120" width="34" height="46"/><rect x="350" y="120" width="34" height="46"/></g>
+  <text x="240" y="86" text-anchor="middle" font-family="serif" font-size="22" fill="#4a4030">槐安旅社</text>
+  <text x="240" y="282" text-anchor="middle" font-family="serif" font-size="13" fill="#6a604f">1972 年留影（朝向 0°，黑白上色示意）</text>
+</svg>

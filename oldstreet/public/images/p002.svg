@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300">
+  <rect width="480" height="300" fill="#dfe7e2"/>
+  <rect y="224" width="480" height="76" fill="#9aa38f"/>
+  <rect x="60" y="86" width="360" height="142" fill="#a5563a"/>
+  <g fill="#7a3c26"><rect x="78" y="106" width="44" height="52"/><rect x="142" y="106" width="44" height="52"/><rect x="206" y="106" width="44" height="52"/><rect x="270" y="106" width="44" height="52"/><rect x="334" y="106" width="44" height="52"/></g>
+  <g fill="#f3ead6"><rect x="78" y="170" width="44" height="58"/><rect x="142" y="170" width="44" height="58"/><rect x="206" y="170" width="44" height="58"/><rect x="270" y="170" width="44" height="58"/><rect x="334" y="170" width="44" height="58"/></g>
+  <rect x="60" y="70" width="360" height="16" fill="#8d472e"/>
+  <text x="240" y="275" text-anchor="middle" font-family="serif" font-size="13" fill="#3a4636">修缮后正立面（2023，朝向 8°，示意）</text>
+</svg>

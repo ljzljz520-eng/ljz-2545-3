@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>槐安老街建筑观察站</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="seal">槐</span>
+    <div>
+      <h1>槐安老街建筑观察站</h1>
+      <p class="sub">稳定建筑实体 · 时段门牌别名 · 多来源证据 · 候选照片对应 · 入口级开放状态</p>
+    </div>
+  </div>
+  <div class="clock">
+    <label>快照日期 <input type="date" id="asOf"></label>
+    <label>时刻 <input type="time" id="asTime" value="12:00"></label>
+    <label title="系统事务时间：用于复现“撤回后分页消失”">事务快照 <input type="datetime-local" id="snapshotAt" step="1"></label>
+    <button id="nowBtn" class="ghost">回到此刻</button>
+  </div>
+</header>
+
+<div class="sitebar" id="siteBar"></div>
+
+<section class="filters" id="filters">
+  <select id="fEra"><option value="">全部年代</option></select>
+  <select id="fStyle"><option value="">全部风格</option></select>
+  <select id="fStatus"><option value="">全部保存状态</option></select>
+  <input type="search" id="fQ" placeholder="搜索名称 / 门牌 / 备注…">
+  <span class="spacer"></span>
+  <label class="pageSize">每页
+    <select id="fLimit"><option>3</option><option selected>5</option><option>10</option><option>50</option></select>
+  </label>
+  <button id="compareBtn" class="ghost" title="比较“现门牌索引”与“稳定实体+时段别名”两种检索">双索引一致性比较</button>
+</section>
+
+<main class="layout">
+  <aside class="listcol">
+    <div class="colhead"><h2>建筑列表</h2><span id="listCount" class="pill"></span>
+      <span class="hint">↑↓ 选择 · Enter 详情 · 与地图同筛选</span></div>
+    <ul id="buildingList" tabindex="0"></ul>
+    <div class="pager">
+      <button id="prevPage" disabled>‹ 上一页（快照固定游标）</button>
+      <span id="pageInfo"></span>
+    </div>
+  </aside>
+
+  <section class="mapcol">
+    <div class="colhead"><h2>街区地图（历史地理分块）</h2>
+      <span class="hint" id="mapHint"></span></div>
+    <canvas id="map" tabindex="0" width="640" height="560" aria-label="街区地图"></canvas>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <aside class="detailcol" id="detail">
+    <div class="empty" id="detailEmpty">从列表或地图选择一座建筑<br>查看证据差异、门牌沿革、修缮事件与照片候选对应</div>
+    <div id="detailBody" hidden></div>
+  </aside>
+</main>
+
+<dialog id="compareDialog">
+  <div class="dlghead"><h3>门牌索引比较：历史检索 &amp; 地理分块的一致快照</h3><button id="compareClose" class="ghost">✕</button></div>
+  <p class="hint" id="compareMeta"></p>
+  <div id="compareBody"></div>
+</dialog>
+
+<dialog id="adminDialog" class="wide">
+  <div class="dlghead"><h3>后台维护</h3><button id="adminClose" class="ghost">✕</button></div>
+  <div class="adminwrap">
+    <div class="adminnav" id="adminNav"></div>
+    <div class="adminbody" id="adminBody"></div>
+  </div>
+</dialog>
+
+<footer class="footbar">
+  <button id="adminBtn" class="primary">后台维护</button>
+  <span class="hint">照片对应只保存候选，须人工确认；坐标纠偏保留旧点；单个入口关闭不上推为整街关闭。</span>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "oldstreet-observer",
+  "version": "1.0.0",
+  "description": "老街建筑全栈观察：稳定实体 + 时段门牌别名、证据差异、候选照片对应、入口级开放状态、双时间一致快照",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/",
+    "repro": "node scripts/repro.js"
+  },
+  "engines": { "node": ">=20" }
+}
